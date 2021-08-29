@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="Ken">
+
+<head>
+    <meta charet="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scaleble=no,initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.typekit.net/yny2znm.css">
+    <link rel="shortcut icon" href="./assets/img/idax.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/016ce68e35.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/animate.css">
+    <link rel="stylesheet" href="./assets/css/fullpage.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/slider.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>IDAX</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <header class="header" id="header">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <p href="" class="header__name">Mérida, Yucatán</p>
+                </div>
+                <div class="header__box">
+                    <a href="https://facebook.com/idax.mx" target="_blank">
+                        <i class="header__icon fab fa-facebook"></i>
+                    </a>
+                    <a href="" class='header__icon'>IDAX</a>
+                    <div class="header__btn">
+                        <span class='header__line'></span>
+                        <span class='header__line'></span>
+                    </div>
+                    <nav class="header__nav" style="background-color: steelblue;">
+                        <ul class="header__globalNav" style="background-color: steelblue;">
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div id='loader' class="header__loader"></div>
+        </header>
+        <div id="fullPage">
+            <section id='s1' class="main section s1">
+                <div class="main__wrapper">
+                    <div class="main__box">
+                        <h1 class="main__name">
+                            IDAX<br/>EN REMODELAMIENTO
+                        </h1>
+                        <span class='main__underBar'></span>
+                        <p class='main__info'>Desarrollo de software personalizado<br>Proyectos mecatrónicos</p>
+                    </div>
+                    <div class="layer main__sun" id="demo">
+                        <div class="main_sunny" data-depth='0.4'>
+                            <img class='main__sun-img' src="./assets/img/idax.png" onmousedown="return false;"
+                                oncontextmenu="return false;" alt="IDAX">
+                        </div>
+                        <img data-depth='0.2' src="./assets/img/moonlight.png" alt="" class="layer main__sunLight-img">
+                        <img data-depth='0.2' src="./assets/img/moonlight.png" alt="" class="layer main__sunLight-img">
+                    </div>
+                </div>
+            </section>
+            <section id='s2' class="main section s2">
+                <div class="main__wrapper">
+                    <div class="main__box">
+                        <h1 class="main__name-2">
+                            NUESTROS<br>TRABAJOS
+                        </h1>
+                        <!--<span class='main__underBar'></span>-->
+                        <p class='main__info'>"Si lo puedes soñar, lo podemos programar"<br></p>
+                    </div>
+
+
+                    <div class="pre-slider">
+                        <h1 id="title-project">
+
+                        </h1>
+                        <div class="container-slider">
+                            <div class="slider" id="slider">
+                                <div class="slider__section">
+                                    <img src="assets/img/idax_cover.jpg" class="slider__img" alt="IDAX">
+                                </div>
+                                <div class="slider__section">
+                                    <img src="assets/img/jg_cover.png" class="slider__img" alt="JG Programing">
+                                </div>
+                                <div class="slider__section">
+                                    <img src="assets/img/stin_cover.jpg" class="slider__img" alt="Stingray Crossfit">
+                                </div>
+                                <div class="slider__section">
+                                    <img src="assets/img/ticket_cover.jpeg" class="slider__img" alt="Ticket">
+                                </div>
+                                <div class="slider__section">
+                                    <img src="assets/img/vax_cover_2-1.jpg" class="slider__img" alt="Ventax VAX">
+                                </div>
+                                <div class="slider__section">
+                                    <img src="assets/img/vet_cover.png" class="slider__img" alt="Veterianaria">
+                                </div>
+                            </div>
+                            <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+                            <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+            <section id='s3' class="main section s3">
+                <div class="main__wrapper">
+                    <div class="main__box">
+                        <h1 class="main__name-2">
+                            CONTACTO
+                            <!--<br>-->
+                        </h1>
+                        <span class='main__underBar'></span>
+                        <p class='main__info'></p>
+                    </div>
+                    <!--<div class="main__contact_">-->
+                    <!--<img class='main__sun-img' src="./assets/img/SVG/moon3.svg" onmousedown="return false;"
+                        oncontextmenu="return false;" alt="">-->
+                    <form action="./assets/php/form.php" method="post" class="formulario">
+                        <!--                       <h1 class="formulario__title">Contáctenos</h1>-->
+                        <input type="text" name="name" class="formulario__input"><label for=""
+                            class="formulario__label">Nombre</label>
+                        <input type="text" name="email" class="formulario__input"><label for=""
+                            class="formulario__label">Correo</label>
+                        <input type="text" name="message" class="formulario__input"><label for=""
+                            class="formulario__label">Mensaje</label>
+                        <input type="submit" class="formulario__submit">
+                    </form>
+
+                    <!--</div>-->
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.js"
+        integrity="sha256-e13jRNqOX98m6UAwI/yZTpcDseJtA8s86yfFs4Sqrv8=" crossorigin="anonymous"></script>
+    <script src='./assets/js/anime.js'></script>
+    <script src='./assets/js/slider.js'></script>
+    <script src='./assets/js/fullpage.js'></script>
+    <script src='./assets/js/form.js'></script>
+    <!--    <script src='./assets/php/form.php'></script>-->
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src='./assets/js/easing.js'></script>
+    <script src='./assets/js/common.js'></script>
+</body>
+
+</html>
